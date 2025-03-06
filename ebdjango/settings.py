@@ -64,7 +64,7 @@ ROOT_URLCONF = "ebdjango.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        'DIRS': [BASE_DIR / 'ebdjango/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
