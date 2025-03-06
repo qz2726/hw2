@@ -2,9 +2,11 @@ from django.contrib import admin
 from django.urls import include, path
 from django.shortcuts import render
 
+
+
 # Simple view for the home page
 def home(request):
-    return render(request, 'home.html')
+    return render(request, "home.html")
 
 
 urlpatterns = [
