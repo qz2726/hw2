@@ -21,7 +21,6 @@ coverage
 coveralls
 cryptography
 docker
-docker-compose
 dockerpty
 docopt
 docutils
